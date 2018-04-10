@@ -21,16 +21,14 @@ SPESIFIKASI KEBUTUHAN PERANGKAT LUNAK
 	
 
 	Abstrak:
-	
-
-
-
-
-
-
-
-
-
+	Dokumen berisikan tentang project perangkat lunak Sistem Informasi Penyedia Makanan Layak Konsumsi Sisa Restoran (X-Food) 
+	yang berfungsi sebagai media informasi untuk penjualan makanan sisa restoran yang layak konsumsi dan juga untuk meminimalisir
+	adanya kerugian yang dialami oleh pihak restoran. Tersedia berbagai fitur pada sistem informasi X-Food diantaranya fitur 
+	untuk login admin dan fitur untuk login user yaitu pelanggan. Selain itu terdapat fitur untuk melihat daftar makanan yang dijual
+	dan terdapat fitur pencarian yang memudahkan pencarian makanan yang diinginkan pelanggan. Admin dapat melakukan update makanan 
+	yang terbaru sehinggan user atau pelanggan mendapatkan informasi terbaru seputar makanan yang dijual oleh pihak restorant. 
+	Sistem informasi X-Food  dibuat berbasis web responsif sehingga dapat diakses oleh pengguna menggunakan gadget apapun laptop
+	selama terhubung dengan koneksi internet.
 
 	 
 	<1. PENDAHULUAN >
