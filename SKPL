@@ -21,49 +21,38 @@ SPESIFIKASI KEBUTUHAN PERANGKAT LUNAK
 	
 
 	Abstrak:
-	Dokumen berisikan tentang project perangkat lunak Sistem Informasi Penyedia Makanan Layak Konsumsi Sisa Restoran (X-Food) 
+	<Dokumen berisikan tentang project perangkat lunak Sistem Informasi Penyedia Makanan Layak Konsumsi Sisa Restoran (X-Food) 
 	yang berfungsi sebagai media informasi untuk penjualan makanan sisa restoran yang layak konsumsi dan juga untuk meminimalisir
 	adanya kerugian yang dialami oleh pihak restoran. Tersedia berbagai fitur pada sistem informasi X-Food diantaranya fitur 
 	untuk login admin dan fitur untuk login user yaitu pelanggan. Selain itu terdapat fitur untuk melihat daftar makanan yang dijual
 	dan terdapat fitur pencarian yang memudahkan pencarian makanan yang diinginkan pelanggan. Admin dapat melakukan update makanan 
 	yang terbaru sehinggan user atau pelanggan mendapatkan informasi terbaru seputar makanan yang dijual oleh pihak restorant. 
 	Sistem informasi X-Food  dibuat berbasis web responsif sehingga dapat diakses oleh pengguna menggunakan gadget apapun laptop
-	selama terhubung dengan koneksi internet.
+	selama terhubung dengan koneksi internet.>
 
 	 
 	<1. PENDAHULUAN >
 	
-
 	<1.1 Latar Belakang>
-
-
-
-
-
-
-
-
-
-
-
-
-
-	
+	Kerugian merupakan hal yang tidak diinginkan dalam usaha yang sedang dijalankan oleh seorang pembisnis. Kerugian menyebabkan usaha 
+	berjalan tidak lancar dan terjadi banyak kendala. Salah satu kerugian yang sering dihadapi yaitu kerugian pada pembisnis makanan
+	atau restoran. Makanan yang diolah dalam jumlah besar terkadang tidak semuanya habis terjual dalam sehari sehingga terdapat
+	sisa makanan secara berlebihan. Sisa makanan tersebut akan menjadi sampah dan terbuang percuma apabila tidak dilakukan pengolahan 
+	kembali dan tentunya akan menyebabkan adanya kerugian pada restoran. Dengan adanya permasalahan diatas maka dibuat sebuah sistem
+	infromasi penyedia Makanan Layak Konsumsi Sisa Restoran (X-Food). Sistem informasi ini dibuat untuk mmengatasi permasalahan
+	pada restoran tentang sisa makanan yang masih layak konsumsi untuk dijual kembali. Pembuatan sistem informasi ini bekerja sama
+	dengan pihak restoran di Kota Malang untuk menjual makanan sisa restoran yang layak konsumsi melalui sistem informasi X-Food ini.
+	Harga yang ditawarkan juga lebih murah dibanding dengan harga normal. Dengan adanya aplikasi ini diharapkan dapat menimalisir
+	adanya kerugian pihak restoran yang disebabkan adanya sisa makanan secara berlebihan yang tidak laku terjual.
 
 	<1.2 Tujuan>
-
-
-
-
-
-	
+	1. Mengurangi adanya kerugian yang dihadapi pihak restoran tentang sisa makanan yang berlebihan
+	2. Mempermudah membarikan informasi tentang makanan murah sisa restoran yang layak konsumsi
 
 	<1.3 Ruang Lingkup Perangkat Lunak>
-
-
-
-
-	
+	Sistem Informasi X-Food dibuat untuk mengatasi masalah kerugian restoran karena sisa makanan yang berlebihan yang tidak terjual.
+	Penjualan sisa makanan layak konsumsi dijual melalui website dengan mengadopsi teknologi web responsif sehingga memudahkan pelanggan
+	dalam mengakses maupun memesan makanan restoran.
 
 	<1.4 Target Audience>
 	Dokumen ini ditujukan kepada pihak Pengelola Restoran dan Konsumen untuk dipahami
