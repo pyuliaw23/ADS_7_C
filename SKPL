@@ -97,9 +97,18 @@ SPESIFIKASI KEBUTUHAN PERANGKAT LUNAK
 	
 
 	<2.1 Tentang Perangkat Lunak>
+	X-Food Merupakan sebuah sistem informasi yang digunakan untuk mengatasi permasalah makanan sisa di restoran yang masih bisa diperjualkan. Sistem ini sebagai jembatan antara penjual makanan sisa direstoran dengan para konsumen. Sistem informasi ini berisi informasi restoran yang menyediakan makanan sisa dan bagaimana cara membeli makanan tersebut. 
 	<2.1.1 Kebutuhan Fungsional>
-
-
+Dalam sistem informasi X-Food terdapat kebutuhan fungsionalitas yang harus dipenuhi oleh pengembang dalam sistem informasinya, kebutuhan fungsionalitas tersebut meliputi:
+1. Sistem dapat melakukan pemesanan makanan
+2. Sistem dapat melakukan input pendataan user
+3. Sistem dapat melakukan transaksi penjualan
+4. Sistem dapat melakukan input data makanan yang dijual
+5. Sistem dapat menampilkan laporan transaksi pembelian
+	<2.1.2> Kebutuan non-Fungsional
+1. Sistem dapat dijalankan oleh beberapa software web browser diantaranya Internet Explore, Google Chrome, dan Mozila Firefox
+2. Sistem memiliki tampilan yang mudah dipahami
+3. Sistem yang buat dibuat responsive terhadap device
 
 
 
