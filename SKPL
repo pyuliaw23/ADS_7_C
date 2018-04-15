@@ -57,119 +57,90 @@ SPESIFIKASI KEBUTUHAN PERANGKAT LUNAK
 	<1.4 Target Audience>
 	Dokumen ini ditujukan kepada pihak Pengelola Restoran dan Konsumen untuk dipahami
 	<1.4.1 Pengelola Restoran>
-	1. Pihak Pengelola Restoran dapat memahami cara kerja sistem informasi X-Food dan dalam penerapannya Pengelola Restoran dapat 
-
-
+	1. Pihak Pengelola Restoran dapat memahami cara kerja sistem informasi X-Food dan Pengelola Restoran dapat melaporkan bug atau masalah
+	dan kekurangan sistem informasi X-Food
+	<1.4.2 Konsumen>
+	1. Konsumen diharapkan dapat memahami secara baik dokumen ini.
+	2. Konsumen diharapkan memahami fungsi dan cara pengoperasian sistem informasi X-Food dengan benar.
+	
 	<1.5 Definisi, Istilah dan Singkatan>
-
-
-
-
-
-
-
-
-
-
+	Adapun definisi, istilah dan singkatan yang digunakan dalam dokumen SKPL ini adalah sebagai berikut :
+	1. IEEE	: Institute of Electrical and Electronics Engineers adalah standart internasional untuk pengembang perangkat lunak
+	2. SKPL	: Spesifikasi Kebutuhan Perangkat Lunak
+	3. SRS	: Software Requirement Specification atau dokumen hasil analisis sebuah perangkat lunak yang berisi spesifikasi kebutuhan pengguna
+	4. Kebutuhan Fungsional : Kebutuhan yang dapat dilakukan oleh admin atau pengelolah yayasan
+	5. Kebutuhan Non Fungsional : Fitur yang diberikan oleh pihak pengembang kepada sistem informasi X-Food
+	6. Use Case Diagram : DIagram alur kerja sistem dalam penerapanya
 
 	<1.6 Referensi>
+	• Holil, Achmad. Template: Spesifikasi Kebutuhan Perangkat Lunak, Jurusan Sistem Informasi ITS, 2006.
 	
-
-
-
-
-
-
-
-
-
-
-
-
-	
-
 	<1.7 Ikhtisar Dokumen>
-
-
-
+	Diharapkan dengan pembuatan SKPL sistem informasi X-Food dapat memberikan pemahaman mengenai pengoperasian sistem informasi X-Food
+	serta dalam penerapanya dapat menjadi solusi yang tepat dalam mengatasi permasalahan yang ada.
 
 	<2. Deskripsi Umum>
 	
-
 	<2.1 Tentang Perangkat Lunak>
-	X-Food Merupakan sebuah sistem informasi yang digunakan untuk mengatasi permasalah makanan sisa di restoran yang masih bisa diperjualkan. Sistem ini sebagai jembatan antara penjual makanan sisa direstoran dengan para konsumen. Sistem informasi ini berisi informasi restoran yang menyediakan makanan sisa dan bagaimana cara membeli makanan tersebut. 
+	X-Food Merupakan sebuah sistem informasi yang digunakan untuk mengatasi permasalah makanan sisa di restoran yang masih bisa diperjualkan.
+	Sistem ini sebagai jembatan antara penjual makanan sisa direstoran dengan para konsumen. Sistem informasi ini berisi informasi restoran
+	yang menyediakan makanan sisa dan bagaimana cara membeli makanan tersebut. 
 	<2.1.1 Kebutuhan Fungsional>
-Dalam sistem informasi X-Food terdapat kebutuhan fungsionalitas yang harus dipenuhi oleh pengembang dalam sistem informasinya, kebutuhan fungsionalitas tersebut meliputi:
-1. Sistem dapat melakukan pemesanan makanan
-2. Sistem dapat melakukan input pendataan user
-3. Sistem dapat melakukan transaksi penjualan
-4. Sistem dapat melakukan input data makanan yang dijual
-5. Sistem dapat menampilkan laporan transaksi pembelian
+	Dalam sistem informasi X-Food terdapat kebutuhan fungsionalitas yang harus dipenuhi oleh pengembang dalam sistem informasinya,
+	kebutuhan fungsionalitas tersebut meliputi:
+	1. Sistem dapat melakukan pemesanan makanan
+	2. Sistem dapat melakukan input pendataan user
+	3. Sistem dapat melakukan transaksi penjualan
+	4. Sistem dapat melakukan input data makanan yang dijual
+	5. Sistem dapat menampilkan laporan transaksi pembelian
 	<2.1.2> Kebutuan non-Fungsional
-1. Sistem dapat dijalankan oleh beberapa software web browser diantaranya Internet Explore, Google Chrome, dan Mozila Firefox
-2. Sistem memiliki tampilan yang mudah dipahami
-3. Sistem yang buat dibuat responsive terhadap device
-
-
-
-
-
-
-
-
-
-
-
+	1. Sistem dapat dijalankan oleh beberapa software web browser diantaranya Internet Explore, Google Chrome, dan Mozila Firefox
+	2. Sistem memiliki tampilan yang mudah dipahami
+	3. Sistem yang buat dibuat responsive terhadap device
 
 
 	<2.2 Fungsi - Fungsi Perangkat Lunak>
-
-
-
-
-
-
-
-
-
-
-
-	
-
 	<2.2.1 Use Case Diagram>
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+
 
 	<2.3 Karakteristik dan Klasifikasi Pengguna>
 	<2.3.1 Fungsi Perangkat Lunak>
-
-
-
 	<2.3.2 Keamanan Data>
 
-
-	
 
 	<2.4 Lingkungan Operasi>
 
 
-	
-
 	<2.5 Batasan Desain dan Implementasi>
+	
+	<3. Kebutuhan Antarmuka Eksternal>
+	Sistem informasi X-Food membutuhkan fasilitas-fasilitas antaramuka eksternal sebagai berikut :
+	<3.1. Antarmuka Pemakai
+	User Interface yang digunakan untuk mengoperasikan sistem informasi X-Food antara lain :
+	1. Tampilan Awal Web (Home)
+	2. Tampilan List/ Daftar Restoran
+	3. Tampilan Pemesanan Makanan
+	4. Tampilan Pemilik Restoran
+	5. Tampilan Restoranku (Jual Makanan)
+	
+        Alat-alat yang mendukung antarmuka pemakai adalah sebagai berikut:
+	1. Keyboard
+	2. Mouse
+	3. Monitor
+	<3.2. Antarmuka Perangkat Keras
+        Antarmuka perangkat keras yang digunakan untuk mengoperasikan sistem informasi antara lain :
+	1. NIC
+	2. Kabel LAN
+	3. Modem
+	<3.3. Antarmuka Perangkat Lunak
+        Antarmuka perangkat lunak yang digunakan untuk mengoperasikan sistem informasi antara lain :
+	1.
+	2.
+	3.
+	<3.4. Antarmuka Komunikasi
+        Antarmuka komunikasi yang digunakan untuk mengoperasikan sistem informasi antara lain :
+	1. Kabel LAN UTP RJ-45
+	2. Modem
 
 
