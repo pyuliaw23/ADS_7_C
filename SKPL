@@ -109,14 +109,15 @@ SPESIFIKASI KEBUTUHAN PERANGKAT LUNAK
 
 	<2.3 Karakteristik dan Klasifikasi Pengguna>
 	<2.3.1 Fungsi Perangkat Lunak>
+	Sistem informasi X-Food merupakan sebuah sistem yang berfungsi sebagai perantara antara restoran dengan konsumen, khususnya untuk mengatasi penjualan makanan sisa yang masih layak dikonsumsi
 	<2.3.2 Keamanan Data>
-
+	Keamanan data menggunakan framework yang terdapat didalam sistem informasi, kemudian data pengguna baik pihak restoran maupun pihak konsumen hanya dipegang oleh admin pusat pengelolah sistem informasi X-Food. Dengan begitu keamanan data informasi dapat terjaga. Kemudian sistem ini hanya melakukan pemesanan makanan dan tidak terdapat transaksi keuangan sehingga tidak terjadi proses seperti penipuan, dikarenakan ketika melakukan pembelian konsumen harus datang ke restoran tersebut.
 
 	<2.4 Lingkungan Operasi>
-
+	Lingkungan operasi yang diterapkan di sistem informasi X-Food ini adalah lingkungan masyarakat yang tersedia rumah makan.
 
 	<2.5 Batasan Desain dan Implementasi>
-	
+	Batasan desain dari sitem informasi X-Foof ini adalah sistem tersebut hanya mencakup user konsumen dan user restoran, kemudian sistem X-Food hanya melayani pemesanan makanan dan tidak terdapat proses transaksi pembayaran.
 	<3. Kebutuhan Antarmuka Eksternal>
 	Sistem informasi X-Food membutuhkan fasilitas-fasilitas antaramuka eksternal sebagai berikut :
 	<3.1. Antarmuka Pemakai
