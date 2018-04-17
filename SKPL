@@ -104,8 +104,38 @@ SPESIFIKASI KEBUTUHAN PERANGKAT LUNAK
 
 	<2.2 Fungsi - Fungsi Perangkat Lunak>
 	<2.2.1 Use Case Diagram>
-	
+	Use Case dapat dilihat di https://github.com/pyuliaw23/ADS_7_C/blob/master/KELOMPOK%207_Use%20case.docx
+	USE CASE TEXT
+	User Case Name : Update Data
+	Aktor : Restoran
+	Use Case Description : Melakukan update data tentang makanan yang dijual
+	Trigger : Pemilik restoran membutuhkan validasi untuk upload data
+	Pre Condition : 
+	-	Pemilik restoran memiliki id login
+	-	Sistem aktif / online 
+	Normal Cause : 
+	-	Pemilik restoran memasukkan id restoran
+	-	Sistem mencocokan dengan id restoran yang terdaftar
+	-	Sistem pengirimkan pemberitahuan kepada pemilik restoran
+	-	Sistem mengkonfirmasi status restoran “terdaftar”
+	Post Condition : Nama restoran masuk dalam daftar restoran terdaftar
+	Exception : 
+	-	Sistem tidak mengenali id restoran
+	-	Sistem offline
 
+	USE CASE TEXT
+	User Case Name : Choose Food
+	Aktor : Customer/pelanggan
+	Use Case Description : Melakukan pemilihan makanan yang akan dibeli yang telah di publish
+	Trigger : Pembeli membutuhkan validasi ketersediaan makanan
+	Pre Condition : Sistem aktif / online
+	Normal Cause : 
+	-	Pembeli memilih makanan yang akan dibeli
+	-	Sistem mengkonfirmasi bahwa makanan tersedia stoknya
+	-	Sistem memberi notifikasi untuk melakukan pemesanan
+	-	Pembeli melakukan pemesanan makanan
+	Post Condition : Makanan yang dipilih telah dipesan
+	Exception : Sistem offline
 
 	<2.3 Karakteristik dan Klasifikasi Pengguna>
 	<2.3.1 Fungsi Perangkat Lunak>
