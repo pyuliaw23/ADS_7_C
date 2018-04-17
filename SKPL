@@ -59,9 +59,12 @@ SPESIFIKASI KEBUTUHAN PERANGKAT LUNAK
 	<1.4.1 Pengelola Restoran>
 	1. Pihak Pengelola Restoran dapat memahami cara kerja sistem informasi X-Food dan Pengelola Restoran dapat melaporkan bug atau masalah
 	dan kekurangan sistem informasi X-Food
+	2. Pihak pengelola restoran diharapkan rutin melakukan update data penjualan makanan
+	3. Pihak pengelola restoran diharapkan segera hubungi pihak pengembang bila terjadi server down atau kerusakan lain
 	<1.4.2 Konsumen>
 	1. Konsumen diharapkan dapat memahami secara baik dokumen ini.
 	2. Konsumen diharapkan memahami fungsi dan cara pengoperasian sistem informasi X-Food dengan benar.
+	3. Konsumen diharapkan segera hubungi pihak pengembang bila terjadi server down atau kerusakan lain
 	
 	<1.5 Definisi, Istilah dan Singkatan>
 	Adapun definisi, istilah dan singkatan yang digunakan dalam dokumen SKPL ini adalah sebagai berikut :
