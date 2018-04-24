@@ -48,32 +48,30 @@ SPESIFIKASI KEBUTUHAN PERANGKAT LUNAK
 	<1.2 Tujuan>
 	1. Mengurangi adanya kerugian yang dihadapi pihak restoran tentang sisa makanan yang berlebihan
 	2. Mempermudah membarikan informasi tentang makanan murah sisa restoran yang layak konsumsi
-
 	<1.3 Ruang Lingkup Perangkat Lunak>
 	Sistem Informasi X-Food dibuat untuk mengatasi masalah kerugian restoran karena sisa makanan yang berlebihan yang tidak terjual.
 	Penjualan sisa makanan layak konsumsi dijual melalui website dengan mengadopsi teknologi web responsif sehingga memudahkan pelanggan
 	dalam mengakses maupun memesan makanan restoran.
-
 	<1.4 Target Audience>
 	Dokumen ini ditujukan kepada pihak Pengelola Restoran dan Konsumen untuk dipahami
 	<1.4.1 Pengelola Restoran>
-	1. Pihak Pengelola Restoran dapat memahami cara kerja sistem informasi X-Food dan Pengelola Restoran dapat melaporkan bug atau masalah
-	dan kekurangan sistem informasi X-Food
-	2. Pihak pengelola restoran diharapkan rutin melakukan update data penjualan makanan
-	3. Pihak pengelola restoran diharapkan segera hubungi pihak pengembang bila terjadi server down atau kerusakan lain
+		1. Pihak Pengelola Restoran dapat memahami cara kerja sistem informasi X-Food dan Pengelola Restoran dapat melaporkan bug atau masalah
+		dan kekurangan sistem informasi X-Food
+		2. Pihak pengelola restoran diharapkan rutin melakukan update data penjualan makanan
+		3. Pihak pengelola restoran diharapkan segera hubungi pihak pengembang bila terjadi server down atau kerusakan lain
 	<1.4.2 Konsumen>
-	1. Konsumen diharapkan dapat memahami secara baik dokumen ini.
-	2. Konsumen diharapkan memahami fungsi dan cara pengoperasian sistem informasi X-Food dengan benar.
-	3. Konsumen diharapkan segera hubungi pihak pengembang bila terjadi server down atau kerusakan lain
+		1. Konsumen diharapkan dapat memahami secara baik dokumen ini.
+		2. Konsumen diharapkan memahami fungsi dan cara pengoperasian sistem informasi X-Food dengan benar.
+		3. Konsumen diharapkan segera hubungi pihak pengembang bila terjadi server down atau kerusakan lain
 	
 	<1.5 Definisi, Istilah dan Singkatan>
-	Adapun definisi, istilah dan singkatan yang digunakan dalam dokumen SKPL ini adalah sebagai berikut :
-	1. IEEE	: Institute of Electrical and Electronics Engineers adalah standart internasional untuk pengembang perangkat lunak
-	2. SKPL	: Spesifikasi Kebutuhan Perangkat Lunak
-	3. SRS	: Software Requirement Specification atau dokumen hasil analisis sebuah perangkat lunak yang berisi spesifikasi kebutuhan pengguna
-	4. Kebutuhan Fungsional : Kebutuhan yang dapat dilakukan oleh admin atau pengelolah yayasan
-	5. Kebutuhan Non Fungsional : Fitur yang diberikan oleh pihak pengembang kepada sistem informasi X-Food
-	6. Use Case Diagram : DIagram alur kerja sistem dalam penerapanya
+		Adapun definisi, istilah dan singkatan yang digunakan dalam dokumen SKPL ini adalah sebagai berikut :
+		1. IEEE	: Institute of Electrical and Electronics Engineers adalah standart internasional untuk pengembang perangkat lunak
+		2. SKPL	: Spesifikasi Kebutuhan Perangkat Lunak
+		3. SRS	: Software Requirement Specification atau dokumen hasil analisis sebuah perangkat lunak yang berisi spesifikasi kebutuhan pengguna
+		4. Kebutuhan Fungsional : Kebutuhan yang dapat dilakukan oleh admin atau pengelolah yayasan
+		5. Kebutuhan Non Fungsional : Fitur yang diberikan oleh pihak pengembang kepada sistem informasi X-Food
+		6. Use Case Diagram : DIagram alur kerja sistem dalam penerapanya
 
 	<1.6 Referensi>
 	• Holil, Achmad. Template: Spesifikasi Kebutuhan Perangkat Lunak, Jurusan Sistem Informasi ITS, 2006.
@@ -89,92 +87,124 @@ SPESIFIKASI KEBUTUHAN PERANGKAT LUNAK
 	Sistem ini sebagai jembatan antara penjual makanan sisa direstoran dengan para konsumen. Sistem informasi ini berisi informasi restoran
 	yang menyediakan makanan sisa dan bagaimana cara membeli makanan tersebut. 
 	<2.1.1 Kebutuhan Fungsional>
-	Dalam sistem informasi X-Food terdapat kebutuhan fungsionalitas yang harus dipenuhi oleh pengembang dalam sistem informasinya,
-	kebutuhan fungsionalitas tersebut meliputi:
-	1. Sistem dapat melakukan pemesanan makanan
-	2. Sistem dapat melakukan input pendataan user
-	3. Sistem dapat melakukan transaksi penjualan
-	4. Sistem dapat melakukan input data makanan yang dijual
-	5. Sistem dapat menampilkan laporan transaksi pembelian
+		Dalam sistem informasi X-Food terdapat kebutuhan fungsionalitas yang harus dipenuhi oleh pengembang dalam sistem informasinya,
+		kebutuhan fungsionalitas tersebut meliputi:
+		1. Sistem dapat melakukan pemesanan makanan
+		2. Sistem dapat melakukan input pendataan user
+		3. Sistem dapat melakukan transaksi penjualan
+		4. Sistem dapat melakukan input data makanan yang dijual
+		5. Sistem dapat menampilkan laporan transaksi pembelian
 	<2.1.2> Kebutuan non-Fungsional
-	1. Sistem dapat dijalankan oleh beberapa software web browser diantaranya Internet Explore, Google Chrome, dan Mozila Firefox
-	2. Sistem memiliki tampilan yang mudah dipahami
-	3. Sistem yang buat dibuat responsive terhadap device
+		1. Sistem dapat dijalankan oleh beberapa software web browser diantaranya Internet Explore, Google Chrome, dan Mozila Firefox
+		2. Sistem memiliki tampilan yang mudah dipahami
+		3. Sistem yang buat dibuat responsive terhadap device
 
 
 	<2.2 Fungsi - Fungsi Perangkat Lunak>
 	<2.2.1 Use Case Diagram>
-	Use Case dapat dilihat di https://github.com/pyuliaw23/ADS_7_C/blob/master/KELOMPOK%207_Use%20case.docx
-	USE CASE TEXT
-	User Case Name : Update Data
-	Aktor : Restoran
-	Use Case Description : Melakukan update data tentang makanan yang dijual
-	Trigger : Pemilik restoran membutuhkan validasi untuk upload data
-	Pre Condition : 
-	-	Pemilik restoran memiliki id login
-	-	Sistem aktif / online 
-	Normal Cause : 
-	-	Pemilik restoran memasukkan id restoran
-	-	Sistem mencocokan dengan id restoran yang terdaftar
-	-	Sistem pengirimkan pemberitahuan kepada pemilik restoran
-	-	Sistem mengkonfirmasi status restoran “terdaftar”
-	Post Condition : Nama restoran masuk dalam daftar restoran terdaftar
-	Exception : 
-	-	Sistem tidak mengenali id restoran
-	-	Sistem offline
+		Use Case dapat dilihat di https://github.com/pyuliaw23/ADS_7_C/blob/master/KELOMPOK%207_Use%20case.docx
+			USE CASE TEXT
+			User Case Name : Update Data
+			Aktor : Restoran
+			Use Case Description : Melakukan update data tentang makanan yang dijual
+			Trigger : Pemilik restoran membutuhkan validasi untuk upload data
+			Pre Condition : 
+			-	Pemilik restoran memiliki id login
+			-	Sistem aktif / online 
+			Normal Cause : 
+			-	Pemilik restoran memasukkan id restoran
+			-	Sistem mencocokan dengan id restoran yang terdaftar
+			-	Sistem pengirimkan pemberitahuan kepada pemilik restoran
+			-	Sistem mengkonfirmasi status restoran “terdaftar”
+			Post Condition : Nama restoran masuk dalam daftar restoran terdaftar
+			Exception : 
+			-	Sistem tidak mengenali id restoran
+			-	Sistem offline
 
-	USE CASE TEXT
-	User Case Name : Choose Food
-	Aktor : Customer/pelanggan
-	Use Case Description : Melakukan pemilihan makanan yang akan dibeli yang telah di publish
-	Trigger : Pembeli membutuhkan validasi ketersediaan makanan
-	Pre Condition : Sistem aktif / online
-	Normal Cause : 
-	-	Pembeli memilih makanan yang akan dibeli
-	-	Sistem mengkonfirmasi bahwa makanan tersedia stoknya
-	-	Sistem memberi notifikasi untuk melakukan pemesanan
-	-	Pembeli melakukan pemesanan makanan
-	Post Condition : Makanan yang dipilih telah dipesan
-	Exception : Sistem offline
+			USE CASE TEXT
+			User Case Name : Choose Food
+			Aktor : Customer/pelanggan
+			Use Case Description : Melakukan pemilihan makanan yang akan dibeli yang telah di publish
+			Trigger : Pembeli membutuhkan validasi ketersediaan makanan
+			Pre Condition : Sistem aktif / online
+			Normal Cause : 
+			-	Pembeli memilih makanan yang akan dibeli
+			-	Sistem mengkonfirmasi bahwa makanan tersedia stoknya
+			-	Sistem memberi notifikasi untuk melakukan pemesanan
+			-	Pembeli melakukan pemesanan makanan
+			Post Condition : Makanan yang dipilih telah dipesan
+			Exception : Sistem offline
 
 	<2.3 Karakteristik dan Klasifikasi Pengguna>
 	<2.3.1 Fungsi Perangkat Lunak>
-	Sistem informasi X-Food merupakan sebuah sistem yang berfungsi sebagai perantara antara restoran dengan konsumen, khususnya untuk mengatasi penjualan makanan sisa yang masih layak dikonsumsi
+		Sistem informasi X-Food merupakan sebuah sistem yang berfungsi sebagai perantara antara restoran dengan konsumen, khususnya untuk mengatasi penjualan makanan sisa yang masih layak dikonsumsi
 	<2.3.2 Keamanan Data>
-	Keamanan data menggunakan framework yang terdapat didalam sistem informasi, kemudian data pengguna baik pihak restoran maupun pihak konsumen hanya dipegang oleh admin pusat pengelolah sistem informasi X-Food. Dengan begitu keamanan data informasi dapat terjaga. Kemudian sistem ini hanya melakukan pemesanan makanan dan tidak terdapat transaksi keuangan sehingga tidak terjadi proses seperti penipuan, dikarenakan ketika melakukan pembelian konsumen harus datang ke restoran tersebut.
-
+		Keamanan data menggunakan framework yang terdapat didalam sistem informasi, kemudian data pengguna baik pihak restoran maupun pihak konsumen hanya dipegang oleh admin pusat pengelolah sistem informasi X-Food. Dengan begitu keamanan data informasi dapat terjaga. Kemudian sistem ini hanya melakukan pemesanan makanan dan tidak terdapat transaksi keuangan sehingga tidak terjadi proses seperti penipuan, dikarenakan ketika melakukan pembelian konsumen harus datang ke restoran tersebut.
 	<2.4 Lingkungan Operasi>
-	Lingkungan operasi yang diterapkan di sistem informasi X-Food ini adalah lingkungan masyarakat yang tersedia rumah makan.
-
+		Lingkungan operasi yang diterapkan di sistem informasi X-Food ini adalah lingkungan masyarakat yang tersedia rumah makan.
 	<2.5 Batasan Desain dan Implementasi>
-	Batasan desain dari sitem informasi X-Foof ini adalah sistem tersebut hanya mencakup user konsumen dan user restoran, kemudian sistem X-Food hanya melayani pemesanan makanan dan tidak terdapat proses transaksi pembayaran.
-	<3. Kebutuhan Antarmuka Eksternal>
-	Sistem informasi X-Food membutuhkan fasilitas-fasilitas antaramuka eksternal sebagai berikut :
-	<3.1. Antarmuka Pemakai
-	User Interface yang digunakan untuk mengoperasikan sistem informasi X-Food antara lain :
-	1. Tampilan Awal Web (Home)
-	2. Tampilan List/ Daftar Restoran
-	3. Tampilan Pemesanan Makanan
-	4. Tampilan Pemilik Restoran
-	5. Tampilan Restoranku (Jual Makanan)
+		Batasan desain dari sitem informasi X-Foof ini adalah sistem tersebut hanya mencakup user konsumen dan user restoran, kemudian sistem X-Food hanya melayani pemesanan makanan dan tidak terdapat proses transaksi pembayaran.
 	
-        Alat-alat yang mendukung antarmuka pemakai adalah sebagai berikut:
-	1. Keyboard
-	2. Mouse
-	3. Monitor
+	
+	<3. Kebutuhan Antarmuka Eksternal>
+		Sistem informasi X-Food membutuhkan fasilitas-fasilitas antaramuka eksternal sebagai berikut :
+	<3.1. Antarmuka Pemakai
+		User Interface yang digunakan untuk mengoperasikan sistem informasi X-Food antara lain :
+		1. Tampilan Awal Web (Home)
+		2. Tampilan List/ Daftar Restoran
+		3. Tampilan Pemesanan Makanan
+		4. Tampilan Pemilik Restoran
+		5. Tampilan Restoranku (Jual Makanan)
+        	Alat-alat yang mendukung antarmuka pemakai adalah sebagai berikut:
+		1. Keyboard
+		2. Mouse
+		3. Monitor
 	<3.2. Antarmuka Perangkat Keras
-        Antarmuka perangkat keras yang digunakan untuk mengoperasikan sistem informasi antara lain :
-	1. NIC
-	2. Kabel LAN
-	3. Modem
+        	Antarmuka perangkat keras yang digunakan untuk mengoperasikan sistem informasi antara lain :
+		1. NIC
+		2. Kabel LAN
+		3. Modem
 	<3.3. Antarmuka Perangkat Lunak
-        Antarmuka perangkat lunak yang digunakan untuk mengoperasikan sistem informasi antara lain :
-	1.
-	2.
-	3.
+        	Antarmuka perangkat lunak yang digunakan untuk mengoperasikan sistem informasi antara lain :
+		1.
 	<3.4. Antarmuka Komunikasi
-        Antarmuka komunikasi yang digunakan untuk mengoperasikan sistem informasi antara lain :
-	1. Kabel LAN UTP RJ-45
-	2. Modem
+        	Antarmuka komunikasi yang digunakan untuk mengoperasikan sistem informasi antara lain :
+		1. Kabel LAN UTP RJ-45
+		2. Modem
 
+	<4. Feature Sistem>
+	      1. KF01
+	         Kebutuhan : Sistem informasi dapat menampilkan daftar makanan
+		 Penjelasan : Pengguna dapat melihat informasi daftar makanan yang terdaftar di dalam sistem yang terdapat di menu Home. 
+	      2. KF02
+	         Kebutuhan : Sistem Informasi dapat menampilkan informasi makanan yang dipilih pengguna
+		 Penjelasan : Pengguna mendapatkan informasi makanan yang dipilih seperti harga, stok dan nama restoran yang menjual
+	      3. KF03
+	         Kebutuhan : Sistem Informasi dapat menyediakan menu pencarian
+		 Penjelasan : Pengguna dapat mencari makanan yang diinginkan dengan menginputkan nama makanan yang diinginkan atau nama restoran
+	      4. KF04 
+	         Kebutuhan : Sistem Informasi dapat menampilkan form buat akun
+		 Penjelasan : Form buat akun akan ditampilkan apabila pengguna (pemilik restoran) ingin melakukan pendaftar untuk menjual makanan
+		              atau pengguna lainnya (Pembeli) ingin membeli. 
+	      5. KF05
+	         Kebutuhan : Sistem Informasi dapat menampilkan daftar atau list restoran 
+		 Penjelasan : Pengguna mendapatkan informasi detail mengenai restoran yang menjual yang berisi tentang no telp dan alamat restoran
+		              berdasarkan kota.
+	      6. KF06 
+	         Kebutuhan : Sistem Informasi dapat menampilkan makanan yang dijual di tiap restoran
+		 Penjelasan : Pengguna mendapatkan informasi mengenai daftar makanan apa saja yang dijual di restoran yang dipilih oleh pengguna.
+	      7. KF07 
+	         Kebutuhan : Sistem Informasi dapat menampilkan form pemesanan 
+		 Penjelasan : Pengguna dapat melengkapi data-data yang terdapat pada form pemesanan
+	      8. KF08
+	         Kebutuhan : Sistem informasi dapat menampilkan total biaya pemesanan
+		 Penjelasan : Setelah pengguna selesai melengkapi data-data pada form pemesanan, sistem akan menampilkan total biaya makanan yang
+		              telah dipesan.
+	      9. KF09 
+	         Kebutuhan : Sistem Informasi dapat menampilan pesan validasi data
+		 Penjelasan : Apabila pengguna telah melengkapi semua persyaratan , sistem akan menampilkan sebuah pesan bahwa registrasi berhasil
+		              dilakukan
+	     
+	  <5. Kebutuhan Non Fungsional Lainnya>
+	  <6. Kebutuhan lain>
 
