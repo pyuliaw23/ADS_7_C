@@ -206,5 +206,21 @@ SPESIFIKASI KEBUTUHAN PERANGKAT LUNAK
 		              dilakukan
 	     
 	  <5. Kebutuhan Non Fungsional Lainnya>
+	  	1. KNF01
+		   Parameter : Operational
+		   Kebutuhan : 1. Sistem informasi membutuhkan sistem operasi windows 
+			       2. Spesifikasi komputer minimal pentium 4 2 GHz
+			       3. Kebutuhan RAM 2GB
+			       4. Kebutuhan Harddisk 500GB
+			       5. Sistem dapat dijalankan oleh beberapa software  web browser diantaranya Internet Explore, Google Chrome dan Mozilla Firefox
+		2. KNF02 
+		   Parameter : Keamanan
+		   Kebutuhan : 1. Sitem datasbase di lengkapi dengan password
+		3. KNF03 
+		   Parameter : Performance
+		   Kebutuhan : 1.Proses penghitungan total biaya sampai sistem dapat menapilkan pesan biaya tidak lebih dari 10 detik
 	  <6. Kebutuhan lain>
+	  	1. Tampilan web dibuat dengan menggunakan photoshop, coreldraw.
+	  	2. Text editor yang digunakan adalah sublime
+	 	3. Bahasa pemrograman yang digunakan adalah HTML,PHP, JAVA Script.
 
